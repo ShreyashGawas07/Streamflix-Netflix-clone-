@@ -1,0 +1,713 @@
+<!-- profiles.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Who's watching?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="profiles-page">
+    <!-- Profile Selection Page -->
+    <div class="profiles-container">
+        <div class="profiles-content">
+            <h1 class="profiles-title">Who's watching?</h1>
+            
+            <div class="profiles-grid">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="John's Profile">
+                    </div>
+                    <span class="profile-name">John</span>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Sarah's Profile">
+                    </div>
+                    <span class="profile-name">Sarah</span>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="https://i.pravatar.cc/150?img=8" alt="Mike's Profile">
+                    </div>
+                    <span class="profile-name">Mike</span>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Emma's Profile">
+                    </div>
+                    <span class="profile-name">Emma</span>
+                </div>
+                
+                <div class="profile-card add-profile">
+                    <div class="profile-avatar">
+                        <div class="add-icon">+</div>
+                    </div>
+                    <span class="profile-name">Add Profile</span>
+                </div>
+            </div>
+            
+            <a href="#" class="manage-profiles-btn">MANAGE PROFILES</a>
+        </div>
+    </div>
+
+    <!-- Link to homepage for demo -->
+    <div class="demo-nav">
+        <a href="index.html" class="demo-link">Go to Homepage →</a>
+    </div>
+</body>
+</html>
+
+<!-- ================================= -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-content">
+            <div class="nav-left">
+                <div class="logo">
+                    <h1>STREAMFLIX</h1>
+                </div>
+                <nav class="nav-links">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">TV Shows</a>
+                    <a href="#" class="nav-link">Movies</a>
+                    <a href="#" class="nav-link">New & Popular</a>
+                    <a href="#" class="nav-link">My List</a>
+                </nav>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-icon">🔍</div>
+                <div class="notifications">🔔</div>
+                <div class="profile-dropdown">
+                    <img src="https://i.pravatar.cc/40?img=1" alt="Profile" class="profile-img">
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <div class="hero-info">
+                <h1 class="hero-title">Stranger Things</h1>
+                <p class="hero-description">
+                    When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.
+                </p>
+                <div class="hero-buttons">
+                    <button class="play-btn">
+                        <span class="play-icon">▶</span>
+                        Play
+                    </button>
+                    <button class="info-btn">
+                        <span class="info-icon">ℹ</span>
+                        More Info
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Trending Now Section -->
+        <section class="content-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="movie-slider">
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=1" alt="Movie 1">
+                    <div class="movie-info">
+                        <h3>The Crown</h3>
+                        <div class="movie-meta">
+                            <span class="rating">98% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=2" alt="Movie 2">
+                    <div class="movie-info">
+                        <h3>Dark</h3>
+                        <div class="movie-meta">
+                            <span class="rating">95% Match</span>
+                            <span class="year">2022</span>
+                            <span class="duration">2h 15m</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=3" alt="Movie 3">
+                    <div class="movie-info">
+                        <h3>Ozark</h3>
+                        <div class="movie-meta">
+                            <span class="rating">92% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">4 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=4" alt="Movie 4">
+                    <div class="movie-info">
+                        <h3>House of Cards</h3>
+                        <div class="movie-meta">
+                            <span class="rating">89% Match</span>
+                            <span class="year">2021</span>
+                            <span class="duration">6 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=5" alt="Movie 5">
+                    <div class="movie-info">
+                        <h3>Breaking Bad</h3>
+                        <div class="movie-meta">
+                            <span class="rating">99% Match</span>
+                            <span class="year">2022</span>
+                            <span class="duration">5 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=6" alt="Movie 6">
+                    <div class="movie-info">
+                        <h3>Narcos</h3>
+                        <div class="movie-meta">
+                            <span class="rating">91% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Continue Watching Section -->
+        <section class="content-row">
+            <h2 class="row-title">Continue Watching</h2>
+            <div class="movie-slider">
+                <div class="movie-card continue-watching">
+                    <img src="https://picsum.photos/300/450?random=7" alt="Movie 7">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%"></div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Witcher</h3>
+                        <div class="movie-meta">
+                            <span class="episode">S1:E3</span>
+                            <span class="remaining">32m left</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card continue-watching">
+                    <img src="https://picsum.photos/300/450?random=8" alt="Movie 8">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 78%"></div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Money Heist</h3>
+                        <div class="movie-meta">
+                            <span class="episode">S3:E8</span>
+                            <span class="remaining">15m left</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card continue-watching">
+                    <img src="https://picsum.photos/300/450?random=9" alt="Movie 9">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 23%"></div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Squid Game</h3>
+                        <div class="movie-meta">
+                            <span class="episode">S1:E2</span>
+                            <span class="remaining">41m left</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card continue-watching">
+                    <img src="https://picsum.photos/300/450?random=10" alt="Movie 10">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 67%"></div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Bridgerton</h3>
+                        <div class="movie-meta">
+                            <span class="episode">S2:E4</span>
+                            <span class="remaining">28m left</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card continue-watching">
+                    <img src="https://picsum.photos/300/450?random=11" alt="Movie 11">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 12%"></div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Queen's Gambit</h3>
+                        <div class="movie-meta">
+                            <span class="episode">E1</span>
+                            <span class="remaining">52m left</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Picks Section -->
+        <section class="content-row">
+            <h2 class="row-title">Top Picks for You</h2>
+            <div class="movie-slider">
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=12" alt="Movie 12">
+                    <div class="movie-info">
+                        <h3>Wednesday</h3>
+                        <div class="movie-meta">
+                            <span class="rating">96% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">1 Season</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=13" alt="Movie 13">
+                    <div class="movie-info">
+                        <h3>The Umbrella Academy</h3>
+                        <div class="movie-meta">
+                            <span class="rating">88% Match</span>
+                            <span class="year">2022</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=14" alt="Movie 14">
+                    <div class="movie-info">
+                        <h3>Lupin</h3>
+                        <div class="movie-meta">
+                            <span class="rating">93% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=15" alt="Movie 15">
+                    <div class="movie-info">
+                        <h3>Euphoria</h3>
+                        <div class="movie-meta">
+                            <span class="rating">85% Match</span>
+                            <span class="year">2022</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=16" alt="Movie 16">
+                    <div class="movie-info">
+                        <h3>The Boys</h3>
+                        <div class="movie-meta">
+                            <span class="rating">94% Match</span>
+                            <span class="year">2023</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Releases Section -->
+        <section class="content-row">
+            <h2 class="row-title">New Releases</h2>
+            <div class="movie-slider">
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=17" alt="Movie 17">
+                    <div class="new-badge">NEW</div>
+                    <div class="movie-info">
+                        <h3>Glass Onion</h3>
+                        <div class="movie-meta">
+                            <span class="rating">91% Match</span>
+                            <span class="year">2024</span>
+                            <span class="duration">2h 19m</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=18" alt="Movie 18">
+                    <div class="new-badge">NEW</div>
+                    <div class="movie-info">
+                        <h3>Avatar: The Way of Water</h3>
+                        <div class="movie-meta">
+                            <span class="rating">87% Match</span>
+                            <span class="year">2024</span>
+                            <span class="duration">3h 12m</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=19" alt="Movie 19">
+                    <div class="new-badge">NEW</div>
+                    <div class="movie-info">
+                        <h3>Top Gun: Maverick</h3>
+                        <div class="movie-meta">
+                            <span class="rating">89% Match</span>
+                            <span class="year">2024</span>
+                            <span class="duration">2h 11m</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://picsum.photos/300/450?random=20" alt="Movie 20">
+                    <div class="new-badge">NEW</div>
+                    <div class="movie-info">
+                        <h3>Black Adam</h3>
+                        <div class="movie-meta">
+                            <span class="rating">82% Match</span>
+                            <span class="year">2024</span>
+                            <span class="duration">2h 5m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link back to profiles for demo -->
+    <div class="demo-nav home">
+        <a href="profiles.html" class="demo-link">← Back to Profiles</a>
+    </div>
+</body>
+</html>
+
+/* ================================= */
+/* style.css */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ================================= */
+/* PROFILE SELECTION PAGE STYLES */
+/* ================================= */
+
+.profiles-page {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profiles-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profiles-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+
+.profiles-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-card:hover .profile-avatar {
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 4px solid transparent;
+    transition: all 0.3s ease;
+    background: linear-gradient(45deg, #333, #555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-profile .profile-avatar {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.add-icon {
+    font-size: 4rem;
+    color: #999;
+    font-weight: 300;
+}
+
+.profile-name {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+.profile-card:hover .profile-name {
+    color: #ffffff;
+}
+
+.manage-profiles-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: transparent;
+    border: 2px solid #999;
+    color: #999;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.manage-profiles-btn:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+/* ================================= */
+/* HOMEPAGE STYLES */
+/* ================================= */
+
+.home-page {
+    background-color: #141414;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, transparent 100%);
+    transition: background-color 0.3s ease;
+    padding: 15px 0;
+}
+
+.navbar:hover,
+.navbar:focus-within {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo h1 {
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffffff;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e50914;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-icon,
+.notifications {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.search-icon:hover,
+.notifications:hover {
+    transform: scale(1.1);
+}
+
+.profile-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.profile-dropdown:hover {
+    opacity: 0.8;
+}
+
+.profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.dropdown-arrow {
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+}
+
+.profile-dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* Hero Banner */
+.hero-banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),
+                url('https://picsum.photos/1920/1080?random=100') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+    width: 100%;
+}
+
+.hero-info {
+    max-width: 600px;
+    z-index: 10;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    line-height: 1.1;
+}
+
+.hero-description {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    color: #e5e5e5;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.play-btn,
+.info-btn {
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none
